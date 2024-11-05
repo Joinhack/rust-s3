@@ -70,7 +70,7 @@ serde_json = "1"
 sha2 = "0.10"
 surf = { version = "2", optional = true, default-features = false }
 thiserror = { version = "1", default-features = false }
-time = { version = "^0.3.6", features = [
+time = { version = "=0.3.6", features = [
     "formatting",
     "macros",
 ], default-features = false }
