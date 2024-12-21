@@ -1,6 +1,6 @@
 [package]
 name = "rust-s3"
-version = "0.36.0-beta.4"
+version = "0.36.0-beta.5"
 authors = ["Drazen Urch"]
 description = "Rust library for working with AWS S3 and compatible object storage APIs"
 repository = "https://github.com/durch/rust-s3"
@@ -61,8 +61,8 @@ md5 = "0.7"
 minidom = { version = "0.16", optional = true }
 percent-encoding = "2"
 quick-xml = { version = "0.36", features = ["serialize"] }
-reqwest = { version = "0.12", optional = true, features = [
-    "stream",
+reqwest = { version = "0.12.9", optional = true, features = [
+    "stream", "rustls-tls"
 ], default-features = false }
 serde = "1"
 serde_derive = "1"
