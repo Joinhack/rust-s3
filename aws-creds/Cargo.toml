@@ -19,7 +19,7 @@ thiserror = "1"
 home = "0.5"
 rust-ini = "0.21"
 attohttpc = { version = "0.28", default-features = false, features = [
-    "json", "tls-rustls"
+    "json", "rustls"
 ], optional = true }
 url = "2"
 quick-xml = { version = "0.32", features = ["serialize"] }
