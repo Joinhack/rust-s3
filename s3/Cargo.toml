@@ -44,7 +44,7 @@ async-std = { version = "1", optional = true }
 async-trait = "0.1"
 attohttpc = { version = "0.28", optional = true, default-features = false }
 # aws-creds = { version = "*", path = "../aws-creds", default-features = false }
-aws-creds = { version = "0.38", default-features = false }
+aws-creds = { version = "0.38", default-features = false, features = ["rustls-tls"] }
 # aws-region = { version = "*", path = "../aws-region" }
 aws-region = "0.27"
 base64 = "0.22"
