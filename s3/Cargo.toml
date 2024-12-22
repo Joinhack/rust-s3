@@ -81,7 +81,7 @@ tokio-stream = { version = "0.1", optional = true }
 url = "2"
 
 [features]
-default = ["fail-on-err", "tags", "tokio-rustls-tls"]
+default = ["fail-on-err", "tags", "tokio-native-tls"]
 
 sync = ["attohttpc", "maybe-async/is_sync"]
 with-async-std-hyper = ["with-async-std", "surf/hyper-client"]
